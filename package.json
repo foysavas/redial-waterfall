@@ -1,0 +1,23 @@
+{
+  "name": "redial-waterfall",
+  "version": "0.0.1",
+  "description": "redial-waterfall",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib/ && ./node_modules/.bin/babel -d lib/ src/",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foysavas/redial-waterfall.git"
+  },
+  "author": "Foy Savas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foysavas/redial-waterfall/issues"
+  },
+  "homepage": "https://github.com/foysavas/redial-waterfall#readme",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
